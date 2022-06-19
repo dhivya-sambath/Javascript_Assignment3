@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Typing Game</title>
+        <link href="TypingGame.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+        <div><h2>Test your Typing Speed</h2></div>
+        <div>
+            <p class="outerdisplay" id = "wpm" style="display: none;">WPM</p>
+            <p class="outerdisplay" id ="cpm" style="display: none;">CPM</p>
+            <p class="outerdisplay">errors</p>
+            <p class="outerdisplay">Time</p>
+            <p class="outerdisplay">%accuracy</p><br>
+        </div>
+        <div>
+             <input  class = "display" id = "wordpermin" type="text" style="display: none;">
+             <input class = "display"  id = "charpermin" type="text" style="display: none;">
+             <input class = "display" id ="error" type="text" value="0">
+             <input class = "display"  id = "timer" type="text" value="60s">
+             <input class = "display" id = "accuracy" type="text" value="100"><br>
+         </div>  
+         <div><input id ="dummytext" type="text" value="Click on the area below to start the game"><br></div>
+         <div><input id ="typehere" type="text" value="start typing here...."></div> 
+         <div><button id="restart" style="display: none;" onclick="startNewGame();">Restart</button></div>
+        </main>  
+        <script src="TypingGame.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+.display{
+    width:40px;
+    height: 40px;
+    background-color: rgb(145, 156, 32);
+    border-radius:5px;
+    box-shadow: 5px 5px; 
+    margin: 5px;
+    text-align: center;
+    }
+
+.outerdisplay{
+    width:50px;
+    height: 20px;
+    background-color: rgb(145, 156, 32);
+    border-radius:5px;
+    text-align: center;
+    margin: 5px;
+    font-size: 10px;
+
+
+}
+
+main div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px;
+}
+
+#dummytext{
+    background-color: rgb(145, 156, 32);
+    box-shadow: 5px 5px; 
+    padding: 10px;
+    width:250px;
+}
+
+#typehere{
+    background-color: rgb(232, 237, 183);
+    box-shadow: 5px 5px; 
+    padding: 10px;
+    width:400px;
+}
+
+button{
+    background-color: rgb(20, 99, 20);
+    box-shadow: 5px 5px; 
+
+}
